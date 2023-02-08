@@ -49,8 +49,15 @@ public class RegistrationTest {
         Boolean result5 = validation.password2("Ussaahir");
         Assertions.assertEquals(result5, true);
     }
+    @Test
+    void given_password2_should_returnTrue() {
+        UserValidation validation = new UserValidation();
+        Boolean result6 = validation.password3("Ussaahir12");
+        Assertions.assertEquals(result6, true);
+    }
 }
-/*Rule2
+/*Rule3
 – Should
 have at least 1
-Upper Case - NOTE – All rules must be passed*/
+numeric number in
+the password - NOTE – All rules must be passed*/
