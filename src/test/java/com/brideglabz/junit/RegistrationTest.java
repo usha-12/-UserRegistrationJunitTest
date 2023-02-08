@@ -31,4 +31,15 @@ public class RegistrationTest {
         Boolean result2 = validation.checkEmailId("UshaAhirwar@gmail.com");
         Assertions.assertEquals(result2, true);
     }
+    @Test
+    void given_phoneNumber_should_returnTrue() {
+        UserValidation validation = new UserValidation();
+        Boolean result3 = validation.phoneNumber("91 9919819801");
+        Assertions.assertEquals(result3, true);
+    }
 }
+/*As a User need to
+follow pre
+-defined
+Mobile Format - E.g. 91 9919819801 - Country code follow by space and 10
+digit number*/
