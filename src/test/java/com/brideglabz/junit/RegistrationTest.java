@@ -37,9 +37,16 @@ public class RegistrationTest {
         Boolean result3 = validation.phoneNumber("91 9919819801");
         Assertions.assertEquals(result3, true);
     }
+    @Test
+    void given_password_should_returnTrue() {
+        UserValidation validation = new UserValidation();
+        Boolean result4 = validation.password("ussaahir");
+        Assertions.assertEquals(result4, true);
+    }
 }
 /*As a User need to
-follow pre
--defined
-Mobile Format - E.g. 91 9919819801 - Country code follow by space and 10
-digit number*/
+follow pre-defined
+Password rules.
+Rule1
+– minimum 8
+Characters - NOTE – All rules must be passed*/
