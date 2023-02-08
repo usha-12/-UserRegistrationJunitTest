@@ -44,6 +44,10 @@ public class UserValidation {
         return (Pattern.matches(SEPERATE_EMAIL_ID,checkEmailSeparate));
     }
 }
-/*Should clear all
-email samples
-provided separately*/
+/*Write JUnit Test to validate the User
+Entry for First Name, Last Name,
+Email, Mobile, and Password.
+- Write Junit Test for Happy as well as Sad test
+case.
+- Happy Test Case validates the Entry Successfully
+- Sad Test Cases fails the Entry*/
