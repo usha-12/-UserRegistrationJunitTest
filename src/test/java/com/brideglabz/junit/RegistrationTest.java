@@ -65,7 +65,10 @@ public class RegistrationTest {
     void given_emailId_should_return_True(){
         UserValidation validation = new UserValidation();
         Boolean result8 = validation.checkEmailSeparate("abc@yahoo.com");
-
         Assertions.assertEquals(result8, true);
     }
 }
+/*Write JUnit
+Parameterised Test to
+validate multiple entry
+for the Email Address.*/
