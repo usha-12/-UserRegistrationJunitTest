@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf775757-98dd-4cbf-8e55-c622a9e04a21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/junit/EmailValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/brideglabz/junit/EmailValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/junit/UserValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/junit/UserValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/brideglabz/junit/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/brideglabz/junit/RegistrationTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="bf775757-98dd-4cbf-8e55-c622a9e04a21" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +36,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/210_RPF/JunitTestUserRegistation&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.EmailValidation">
+  <component name="RunManager" selected="JUnit.EmailValidationTest">
     <configuration name="EmailValidation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistrationJunit" />
       <extension name="coverage">
@@ -54,6 +47,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.brideglabz.junit" />
       <option name="MAIN_CLASS_NAME" value="com.brideglabz.junit.EmailValidation" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmailValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserRegistrationJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brideglabz.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.brideglabz.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.brideglabz.junit.EmailValidationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmailValidationTest" />
         <item itemvalue="JUnit.EmailValidation" />
         <item itemvalue="JUnit.RegistrationTest" />
       </list>

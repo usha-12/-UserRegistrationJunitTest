@@ -21,13 +21,12 @@ public class EmailValidationTest {
         this.email = email;
         this.expectedResult = expectedResult;
     }
-
     public void EmailValidationTest(String email, Boolean expectedResult) {
         this.email = email;
         this.expectedResult = expectedResult;
     }
     @Before
-    public void initilize(){
+    public void initialize(){
         emailValidation=new EmailValidationTest(email, expectedResult);
     }
     @Parameterized.Parameters
