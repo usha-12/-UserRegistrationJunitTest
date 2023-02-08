@@ -16,7 +16,14 @@ public class RegistrationTest {
     @Test
     void given_first_name_should_returnTrue() {
         UserValidation validation = new UserValidation();
-        Boolean result = validation.checkFirstName("Aditya");
+        Boolean result = validation.checkFirstName("Usha");
         Assertions.assertEquals(result, true);
     }
+    @Test
+    void given_last_name_should_returnTrue() {
+        UserValidation validation = new UserValidation();
+        Boolean result1 = validation.checkLastName("Ahirwar");
+        Assertions.assertEquals(result1, true);
+    }
 }
+
